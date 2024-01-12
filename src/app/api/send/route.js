@@ -8,7 +8,7 @@ export async function POST() {
     const data = await resend.emails.send({
       // 보내는사람
       from: 'jun <jun@naver.com>',
-      to: ['gurwns232@naver.com'],
+      to: ['test@naver.com'],
       subject: 'Hello world',
       react: (
         <>
